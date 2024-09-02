@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness World - Contact</title>
+    <link rel="stylesheet" href="styles.css"> <!-- General Styles -->
+    <link rel="stylesheet" href="contact.css"> <!-- Contact Page-Specific Styles -->
+</head>
+<body>
+    <header>
+        <div class="logo">Fitness World</div>
+        <button class="menu-toggle" aria-label="Open Menu">&#9776;</button>
+        <nav class="nav-menu">
+            <button class="menu-close" aria-label="Close Menu">&times;</button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a  href="membership.html">Membership</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+               
+                <li><a 
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-headline">
+            <h1>Connect with Us</h1>
+            <p>Reach out for membership, feedback, or just to say hello!</p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form id="contactForm">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="What's on your mind?" required></textarea>
+
+                <button type="submit">Send Your Message</button>
+            </form>
+        </section>
+
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Gym Address:</strong> 123 Fitness St, Anytown, USA 12345</p>
+            <p><strong>Phone Number:</strong> 555-555-5555</p>
+            <p><strong>Email Address:</strong> <a href="mailto:info@fitnessgym.com">info@fitnessgym.com</a></p>
+            <p><strong>Follow Us:</strong> 
+                <a href="https://facebook.com" target="_blank">Facebook</a>, 
+                <a href="https://instagram.com" target="_blank">Instagram</a>, 
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </p>
+        </section>
+
+        <section class="contact-map">
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=123+Fitness+St,+Anytown,+USA+12345" allowfullscreen></iframe>
+        </section>
+
+        <section class="office-hours">
+            <h2>Office Hours</h2>
+            <p><strong>Monday - Thursday:</strong> 5am - 10pm</p>
+            <p><strong>Friday:</strong> 5am - 9pm</p>
+            <p><strong>Saturday:</strong> 8am - 7pm</p>
+            <p><strong>Sunday:</strong> 9am - 6pm</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://wa.me/" target="_blank">WhatsApp</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="contact.js"></script> 
+     <script src="script.js"></script> <!-- Contact Page-Specific Scripts -->
+</body>
+</html>
