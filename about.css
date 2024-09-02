@@ -1,0 +1,52 @@
+/* Page-Specific Styles for about.html */
+
+/* Styling for the About Us Section */
+.about-section {
+    margin: 20px;
+}
+
+.about-section h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* Styling for the Experience Section */
+.experience-section {
+    margin: 20px;
+}
+
+.experience-section h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.experience-section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* Styling for the Customer Feedback Section */
+.feedback-section {
+    margin: 20px;
+}
+
+.feedback-section h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.feedback-section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
