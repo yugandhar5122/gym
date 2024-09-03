@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Fetch and display text content
-    fetch('text-content.html')
+    fetch('textcontent.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('text-content').innerHTML = data;
